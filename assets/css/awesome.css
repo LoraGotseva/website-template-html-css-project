@@ -1,0 +1,80 @@
+.awesome {
+  height: 600px;
+}
+.awesome-container {
+  padding: 110px 150px;
+}
+
+.awesome-heading-wrapper h2 {
+  font-size: 36px;
+  line-height: 43px;
+  color: #212121;
+  font-weight: 400;
+  font-family: "Raleway";
+  text-align: center;
+}
+
+.awesome-heading-wrapper hr {
+  width: 65px;
+  border: 1.5px solid #ff8b38;
+  margin: 30px auto;
+}
+.awesome-heading-wrapper p {
+  font-size: 14px;
+  line-height: 20px;
+  color: #86878b;
+  font-weight: 400;
+  font-family: "Open Sans";
+  margin: 0 auto;
+  text-align: center;
+}
+
+.awesome-items {
+  margin-top: 80px;
+  display: flex;
+  gap: 30px;
+}
+
+.awesome-items i {
+  font-size: 32px;
+  color: #ff8b38;
+  border: 2px solid #ff8b38;
+  border-radius: 50%;
+}
+
+.awesome-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.awesome-item h3 {
+  font-size: 20px;
+  line-height: 24px;
+  color: #333333;
+  font-weight: 700;
+  font-family: "Open Sans";
+  text-align: center;
+}
+
+.awesome-item p {
+  font-size: 14px;
+  line-height: 20px;
+  color: #86878b;
+  font-weight: 400;
+  font-family: "Open Sans";
+  text-align: center;
+}
+
+.awesome-item .fa-lightbulb-o {
+    padding: 25px 30px;
+}
+
+.awesome-item .fa-keyboard-o {
+    padding: 25px 23px;
+}
+
+.awesome-item .fa-bolt {
+    padding: 25px 30px;
+}

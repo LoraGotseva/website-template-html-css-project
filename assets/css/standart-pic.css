@@ -1,0 +1,32 @@
+.standart-pic {
+  background-color: #f5f5f5;
+  height: 525px;
+}
+
+.standart-pic-container {
+  padding: 110px 150px;
+  display: flex;
+  gap: 180px;
+}
+
+.text-wrapper h3 {
+  font-size: 20px;
+  line-height: 43px;
+  color: #212121;
+  font-weight: 700;
+  font-family: "Open Sans";
+}
+
+.text-wrapper p {
+  font-size: 14px;
+  line-height: 20px;
+  color: #86878b;
+  font-weight: 400;
+  font-family: "Open Sans";
+}
+
+.text-wrapper hr {
+    width: 65px;
+    border: 1.5px solid #ff8b38;
+    margin: 30px 0;
+  }

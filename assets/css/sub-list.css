@@ -1,0 +1,56 @@
+.sub-list {
+  height: 600px;
+}
+
+.sub-list-container {
+  padding: 105px 150px;
+  display: flex;
+  gap: 170px;
+}
+
+.sub-list-wrapper h3 {
+  font-size: 20px;
+  line-height: 43px;
+  color: #212121;
+  font-weight: 700;
+  font-family: "Open Sans";
+}
+
+.sub-list-wrapper h4 {
+  font-size: 14px;
+  line-height: 17px;
+  color: #212121;
+  font-weight: 600;
+  font-family: "Open Sans";
+}
+
+.sub-list-wrapper hr {
+  width: 65px;
+  border: 1.5px solid #ff8b38;
+  margin: 30px 0;
+}
+
+.sub-list-wrapper p {
+  font-size: 14px;
+  line-height: 20px;
+  color: #86878b;
+  font-weight: 400;
+  font-family: "Open Sans";
+}
+
+.lines {
+  margin-top: 50px;
+  display: flex;
+}
+
+.lines i {
+  border: 2px solid #ff8b38;
+  padding: 10px;
+  border-radius: 50%;
+  position: absolute;
+  color:#ff8b38;
+}
+
+.lines-text {
+  margin-left: 60px;
+}

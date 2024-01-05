@@ -1,0 +1,115 @@
+.pricing {
+  background-color: #f5f5f5;
+}
+
+hr {
+  margin: 0;
+}
+.pricing-container {
+  padding: 110px 150px;
+}
+
+.pricing-container h2 {
+  font-size: 36px;
+  line-height: 43px;
+  color: #212121;
+  font-family: "Raleway";
+  text-align: center;
+}
+
+.pricing-container > hr {
+  width: 65px;
+  border: 1.5px solid #ff8b38;
+  margin: 30px auto;
+}
+
+.pricing-container > p {
+  font-size: 14px;
+  line-height: 20px;
+  color: #86878b;
+  font-weight: 400;
+  font-family: "Open Sans";
+  text-align: center;
+}
+
+.pricing-items {
+  margin-top: 85px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.pricing-item {
+  width: 345px;
+  height: 465px;
+  background-color: #333333;
+}
+
+.pricing-item h3 {
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Open Sans";
+  text-align: center;
+  padding: 20px 0;
+}
+
+.pricing-item .price {
+  font-size: 65px;
+  line-height: 24px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Raleway";
+  text-align: center;
+  margin-top: 30px;
+}
+
+.pricing-item .price span {
+  font-size: 35px;
+  line-height: 24px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Raleway";
+  text-align: center;
+}
+
+.pricing-item .desc {
+  opacity: 0.502;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+  font-weight: 600;
+  font-family: "Open Sans";
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.pricing-item .orange {
+  border: 3px solid #ff8b38;
+}
+
+.pricing-item .most-popular {
+  padding: 5px 0;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Open Sans";
+  text-align: center;
+  background-color: #ff8b38;
+}
+
+.pricing-item li {
+  background-color: white;
+  font-size: 14px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #86878b;
+  font-weight: 400;
+  font-family: "Open Sans";
+  text-align: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #d0d0d0;
+}
+

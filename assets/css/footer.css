@@ -1,0 +1,28 @@
+footer {
+  height: 85px;
+  background-color: black;
+}
+
+.footer-container {
+  padding: 20px 540px 0;
+}
+
+.footer-container i {
+  font-size: 24px;
+  color: #cccccc;
+}
+
+.footer-container p {
+  opacity: 0.502;
+  font-size: 12px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Open Sans";
+  text-align: center;
+  padding: 14px 0;
+}
+.socials-wrapper {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}

@@ -1,0 +1,169 @@
+.nav-wrapper {
+    background-color: black;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 150px;
+}
+
+.nav-container img {
+    max-width: 180px;
+    max-height: 20px;
+}
+
+.nav {
+    display:flex;
+    gap: 50px;
+}
+
+.nav li a {
+    opacity: 0.690;
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Open Sans";
+    text-align: right;
+    text-decoration: none;
+}
+
+.main-wrapper {
+    background-image: url('../images/header-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 640px;
+}
+
+.main-wrapper::before {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 640px;
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+.main-container {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    padding: 110px 150px;
+}
+
+.main-left {
+    width:530px;
+}
+
+.main-left h1 {
+    font-size: 36px;
+    color: #ffffff;
+    font-family: "Raleway";
+    margin-top: 30px;
+}
+
+.main-left hr {
+    width: 65px;
+    border: 1px solid white;
+    margin:40px 0;
+}
+
+.main-left p {
+    opacity: 0.800;
+    font-size: 16px;
+    line-height: 23px;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: "Raleway";
+}
+
+.download-btn {
+    font-size: 15px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Open Sans";
+    border: 2px solid white;
+    padding: 12px 30px;
+    background-color: transparent;
+    margin-top: 45px;
+    cursor: pointer;
+}
+
+.main-right {
+    width: 360px;
+    height: 360px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.form-wrapper {
+    display: flex;
+    flex-wrap:wrap;
+    height:100%;
+    justify-content: center;
+}
+
+
+.main-right h2 {
+    font-size: 20px;
+    color: #333333;
+    font-weight: 700;
+    font-family: "Open Sans";
+    height:55px;
+    padding-top: 20px;
+    background-color: #f5f5f5;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+
+
+.main-right h2 span {
+    color:#ff8b38;
+}
+
+.main-right input {
+    border-width: 0 0 1px 0;
+    border-style: none none solid none;
+    border-color:#d6d6d6;
+    margin: 40px 40px 0;
+    width: 285px;
+    height: 30px;
+    padding: 0;
+}
+
+.main-right input:hover {
+    border-width: 0 0 2px 0;
+}
+
+.main-right input::placeholder {
+    font-size: 14px;
+    color: #d6d6d6;
+    font-weight: 400;
+    font-family: "Open Sans";
+    text-indent: 14px;
+    
+}
+
+.get-started-btn {
+    background-color: #ff9b51;
+    border:none;
+    font-size: 15px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Open Sans";
+    margin-top: 42px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    width: 100%;
+    height: 50px;
+    padding: 0;
+    cursor: pointer;
+}
